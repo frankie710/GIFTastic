@@ -35,6 +35,7 @@ $(document).ready(function () {
             });
     });
 
+
     var topics = [];
     var savedGIFArray = [];
     var displayArray = [];
@@ -50,8 +51,6 @@ $(document).ready(function () {
             b.text(topics[i]);
             $("#addNewBtn").append(b);
         }
-
-
     });
 
 
@@ -76,5 +75,4 @@ $(document).ready(function () {
         savedGIFArray.push(savedGIFs);
         localStorage.setItem("savedGIFs", savedGIFArray);
     });
-
 });
