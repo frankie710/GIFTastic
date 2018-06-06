@@ -1,0 +1,19 @@
+
+body{
+    background-color: cornflowerblue;
+}
+
+h1, .submitBtn, h2{
+    text-align: center;
+}
+
+#GIFsButtons{
+    display: flex;
+    justify-content: center;
+}
+
+#btn, #addBtn{
+    color: black;
+    background-color: bisque;
+}
+

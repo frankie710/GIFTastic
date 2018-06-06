@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>GIFTastic</title>
+    <link href="assets/css/style.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
 
@@ -12,15 +13,33 @@
     <h1>
         <b>This is GIFTastic!!!</b>
     </h1>
-    <div class="container">
+    <div class="container" id="GIFsButtons">
         <div class="buttons">
             <button class="btn-LOTR" id="btn" name="LOTR">LOTR</button>
             <button class="btn-Cats" id="btn" name="Cats">Cats</button>
             <button class="btn-Dogs" id="btn" name="Dogs">Dogs</button>
             <button class="btn-StarWars" id="btn" name="Star Wars">Star Wars</button>
             <button class="btn-RickAndMorty" id="btn" name="Rick And Morty">Rick and Morty</button>
+            <div class="btn-new" id="addNewBtn"></div>
         </div>
     </div>
+
+    <br>
+
+    <div class="submitBtn">
+        <form class="newBtn" id="newButton">
+            <div>
+                <label for="newGIFs">Add a new button for more GIFs!</label>
+                <input type="text" id="newGIFs">
+            </div>
+            <br>
+            <input id="addBtn" type="submit" value="add">
+        </form>
+    </div>
+
+    <br>
+
+
 
     <h2>Here are your GIFs</h2>
 
